@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: ('../fonts/mulish-v12-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin_cyrillic-regular.woff') format('woff');
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/mulish-v12-latin_cyrillic-500.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin_cyrillic-500.woff') format('woff');
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v12-latin_cyrillic-700.woff2') format('woff2'),
+         url('../fonts/mulish-v12-latin_cyrillic-700.woff') format('woff'); 
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/mulish-v12-latin_cyrillic-italic.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin_cyrillic-italic.woff') format('woff'); 
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/mulish-v12-latin_cyrillic-500italic.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin_cyrillic-500italic.woff') format('woff'); 
+    font-display: swap;
+  }
+
+  body {
+    font-family: 'Mulish', "Arial", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
